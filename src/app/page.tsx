@@ -24,6 +24,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Brands />
+      <Contact />
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
