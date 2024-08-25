@@ -11,14 +11,14 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
-                alt="about image"
+                src="/images/about/security-control-room.jpg"
+                alt="Güvenlik Kontrol Odası"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="/images/about/about-image-2-dark.svg"
-                alt="about image"
+                src="/images/about/security-control-room-dark.jpg"
+                alt="Güvenlik Kontrol Odası"
                 fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
@@ -28,29 +28,30 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Yüksek Teknoloji Çözümler
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  En son teknoloji ürünleri ve yazılımları kullanarak, ev ve işyerleriniz için maksimum güvenlik sağlıyoruz. 
+                  Akıllı kamera sistemleri, gelişmiş alarm sistemleri ve modern geçiş kontrol sistemleri ile mülkünüzü 7/24 koruyoruz.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Profesyonel Destek
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  Uzman ekibimiz, kurulum sonrası da yanınızda. 7/24 teknik destek, düzenli bakım hizmetleri ve 
+                  hızlı müdahale sürelerimizle sistemlerinizin her zaman sorunsuz çalışmasını sağlıyoruz.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  Özelleştirilmiş Çözümler
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  Her müşterimizin ihtiyaçları farklıdır. Bu nedenle, her projeyi özenle değerlendirip, 
+                  size özel çözümler sunuyoruz. Küçük bir evden büyük bir iş merkezine kadar her ölçekte 
+                  güvenlik ve iletişim sistemleri tasarlıyor ve uyguluyoruz.
                 </p>
               </div>
             </div>

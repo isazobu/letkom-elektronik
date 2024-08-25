@@ -1,44 +1,42 @@
 import { Testimonial } from "@/types/testimonial";
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
-
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Ahmet Yılmaz",
+    designation: "ABC Şirketler Grubu Güvenlik Müdürü",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Şirketimizin tüm lokasyonlarında kullandığımız güvenlik kamera sistemleri beklentilerimizin ötesinde performans gösteriyor. Kurulum sürecinden sonraki teknik desteğe kadar her aşamada profesyonel bir hizmet aldık.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Mümtaz Yalçın",
+    designation: "XYZ Rezidans Yöneticisi",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Rezidansımızda kurduğumuz geçiş kontrol sistemi sayesinde sakinlerimizin güvenliği üst düzeye çıktı. Sistemin kullanımı çok kolay ve sorun yaşadığımızda 7/24 destek alabiliyoruz.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Mehmet Demir",
+    designation: "123 AVM Genel Müdürü",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "AVM'mizde kurulan entegre güvenlik ve iletişim sistemleri sayesinde hem müşterilerimiz hem de çalışanlarımız kendilerini daha güvende hissediyor. Özellikle akıllı kamera sistemleri ve anons sistemleri çok işimize yarıyor.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
 ];
-
 const Testimonials = () => {
   return (
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Müşterilerimizin Deneyimleri"
+          paragraph="20 yılı aşkın süredir, farklı sektörlerden binlerce müşterimize en yüksek kalitede güvenlik ve iletişim çözümleri sunuyoruz. İşte bazı müşterilerimizin bizimle yaşadıkları deneyimler."
           center
         />
 
