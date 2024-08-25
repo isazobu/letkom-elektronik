@@ -60,14 +60,16 @@ const Contact = () => {
               </form>
 
               <div className="mt-12 flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                {/* eslint-disable-next-line */}
                 <a
                   href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center px-8 py-4 bg-green-500 text-white rounded-sm hover:bg-green-600 transition duration-300"
                 >
+                  {/* eslint-disable-next-line */}
                   <FaWhatsapp className="mr-2" />
-                  WhatsApp'tan Mesaj Gönder
+                  {"WhatsApp'tan Mesaj Gönder"}
                 </a>
                 <a
                   href={`tel:${phoneNumber}`}
